@@ -9,7 +9,7 @@ launch the job server with
 
 Once this is done, you can add an experiment described by yaml files using `add_xp_to_queue.py`
 
-    python add_xp_to_queue.py --n-fit 2 params_experiment.yaml
+    python add_xp_to_queue.py --n-fit 2 experiments_description/params_experiment.yaml
 
 
 See the help of `add_xp_to_queue.py` for more info
@@ -22,3 +22,4 @@ See the help of `add_xp_to_queue.py` for more info
 - [] test rq suspend and rq resume
 - [] change data logged to csv -> to json to keep metadata.
 - [] Maybe use systemd to handle server stuff
+- [] Add template YAML files for most common env and agents
