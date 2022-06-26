@@ -1,0 +1,3 @@
+base_config: 'rsucbvi.yaml'
+init_kwargs:
+  gamma: 0.9

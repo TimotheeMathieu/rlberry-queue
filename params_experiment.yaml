@@ -1,0 +1,7 @@
+description: 'RSUCBVI in NRoom'
+seed: 42
+train_env: 'room.yaml'
+eval_env: 'room.yaml'
+agents:
+  - 'rsucbvi.yaml'
+  - 'rsucbvi_alternative.yaml'
