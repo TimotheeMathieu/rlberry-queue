@@ -1,5 +1,15 @@
 # rlberry-queue
-some scripts to use rq with rlberry
+some scripts to use rq with rlberry. This works only on linux OS's.
+
+## Installation
+
+The server use redis, that can be installed on ubuntu using
+
+    sudo apt-get install redis
+
+The other dependency is rq which can be installed via pip
+
+    pip install rq
 
 ## Basic usage
 
@@ -15,6 +25,12 @@ Once this is done, you can add an experiment described by yaml files using `add_
 See the help of `add_xp_to_queue.py` for more info
 
     python add_xp_to_queue.py --help
+
+Using `python add_xp_to_queue.py`, several experiments can be queued. `rq` commands can then be used to monitor the jobs.
+
+      rq info
+
+`rq` can also be used to suspend and resume the jobs with `rq suspend` and `rq resume`. See `rq`'s help.
 
 
 ## TODO
