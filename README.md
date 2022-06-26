@@ -35,7 +35,7 @@ Using `python add_xp_to_queue.py`, several experiments can be queued. `rq` comma
 
 ## TODO
 
-- [] test rq suspend and rq resume
-- [] change data logged to csv -> to json to keep metadata.
-- [] Maybe use systemd to handle server stuff
-- [] Add template YAML files for most common env and agents
+- [ ] test rq suspend and rq resume
+- [ ] change data logged to csv -> to json to keep metadata.
+- [ ] Maybe use systemd to handle server stuff
+- [ ] Add template YAML files for most common env and agents
